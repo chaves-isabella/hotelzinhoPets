@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Pets {
     private String nome;
     private int nivelFelicidade;
@@ -32,5 +35,6 @@ public abstract class Pets {
     public void setNivelFelicidade(int nivelFelicidade) {
         this.nivelFelicidade = nivelFelicidade;
     }
+
 }
 
